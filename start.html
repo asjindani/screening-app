@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screening App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container-fluid p-4">
+        <a href="/">
+            <img class="logo" src="images/logo.png" alt="Logo">
+            <button type="button" class="btn-close float-end m-3" aria-label="Close"></button>
+        </a>
+    </header>
+
+    <main class="container-fluid p-4">
+        <h2>Do you have a temperature above 100.4°F?</h2>
+        <img class="img-fluid my-5 w-80 mx-auto d-block" src="images/fever.png" alt="Fever">
+        <a href="results/positive.html" class="d-block"><button type="button" class="btn btn-success w-100 mb-2">Yes</button></a>
+        <a href="results/negative.html" class="d-block"><button type="button" class="btn btn-danger w-100">No</button></a>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
